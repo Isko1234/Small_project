@@ -1,0 +1,184 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  gap: 30px;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+  padding: 45px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9d9d9d;
+}
+
+.content_div {
+  display: flex;
+  gap: 30px;
+}
+
+.balance {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bl {
+  font-weight: 600;
+  color: #9d9d9d;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+}
+
+.goods_title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.goods_list {
+  display: flex;
+  gap: 40px;
+}
+
+.goods_item {
+  width: 210px;
+  /* height: 260px; */
+  border-radius: 40px;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.good_description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.title_price {
+  font-size: 11px;
+  font-weight: 500;
+  color: #bdbdbd;
+}
+
+.pr {
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+}
+
+.minus {
+  color: #bdbdbd;
+}
+
+footer {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricess {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ovprice {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ovr {
+  font-size: 24px;
+}
+
+.gray {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #b0aeae;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+.payment {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #bcb8b8;
+  background-color: #fff;
+}
+
+.payment:hover {
+  transition: linear 0.5s;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
